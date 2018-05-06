@@ -631,7 +631,7 @@ locationSuccess = function(position)
 			t = 0; // re-initialise the timer
 			makeQuestion(userPos,n,Infinity); // perform a question based on the user location with an ifinity threshold
 		}
-	}else if ((activeOption == 1) && (t >= 15)) // if the active option is proximity quiz and the timer is higer than 30 seconds
+	}else if ((activeOption == 1) && (t >= 30)) // if the active option is proximity quiz and the timer is higer than 30 seconds
 	{
 		t = 0; // re-initialise the timer
 		makeQuestion(userPos,n,distance[indexDiff]); // make a question based on the user location and the selected user distance option
