@@ -117,7 +117,7 @@ function loaddata(data)
 	controlSearch = new L.Control.Search(
 	{
 		layer: geojsonLayer, // the layer that is used to search a point
-		propertyName: 'depname', // the attribute that is used to search a point
+		propertyName: 'question', // the attribute that is used to search a point
 		position: 'topleft', // the control's location
 		marker: {								//custom L.Marker or false for hide
 					icon: departmentIcon,		//custom L.Icon for maker location or false for hide
