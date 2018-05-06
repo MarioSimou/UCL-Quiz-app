@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang= 'en'>
+<head>
+	<title>UCL Location Quiz App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="utf-8"/>
+	 
+	<!-- Plugins 
+	https://github.com/apache/cordova-plugin-whitelist <-> cordova-plugin-whitelist
+	https://github.com/Leaflet/Leaflet.markercluster <-> marker cluster
+	https://github.com/lvoogdt/Leaflet.awesome-markers <-> awesome markers
+	https://github.com/stefanocudini/leaflet-search <-> leaflet serach
+	-->
+
+
+    <!--css -->
+    <link rel="stylesheet" href="./css/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./plugin/Leaflet.markercluster-1.3.0/dist/MarkerCluster.css">
+    <link rel="stylesheet" type="text/css" href="./plugin/Leaflet.markercluster-1.3.0/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" type='text/css' href="bootstrap/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" type='text/css' href="./plugin/Leaflet.awesome-markers-2.0-develop/dist/leaflet.awesome-markers.css"> 
+  	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet"type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./plugin/leaflet-search-master/src/leaflet-search.css">
+
+    <!-- js-->
+    <script src="./js/leaflet.js"></script>
+    <script src= './plugin/Leaflet.markercluster-1.3.0/dist/leaflet.markercluster.js'></script>
+    <script src = './plugin/leaflet-providers-master/dist/leaflet-providers.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="./plugin/Leaflet.awesome-markers-2.0-develop/dist/leaflet.awesome-markers.js"></script>
+    <script src="bootstrap/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+    <script src='./plugin/leaflet-search-master/src/leaflet-search.js'></script>
+
+    <!-- UCL POI request-->
+    <script src='./js/initial.js'></script>
+
+</head>
+<body>
+	<div class = '.wrap'>
+	<div id="mySidenav" class="sidenav">
+		<div>    
+        	<li class="panel-title">
+          		<a data-toggle="collapse" href="#collapse1">Basemaps</a>
+        	</li>
+      	</div>
+     	<div id="collapse1" class="panel-collapse collapse">
+	          <a class="list-group-item">Street Map</a>
+	          <a class="list-group-item">Topo Map</a>
+	          <a class="list-group-item">Imagery</a>
+      	</div>
+      	<div>    
+        	<li class="panel-title">
+          		<a data-toggle="collapse" href="#collapse2">Layers</a>
+        	</li>
+      	</div>
+     	<div id="collapse2" class="panel-collapse collapse">
+	          <a class="list-group-item">UCL POI</a>
+      	</div>
+      	<div>
+      		<li class="panel-title ">
+          		<a data-toggle="collapse" href="#collapse3">Quiz Time</a>
+        	</li>
+      	</div>
+     	<div id="collapse3" class="panel-collapse collapse">
+	          <a class="list-group-item">Start Time</a>
+		  <a class="list-group-item">Proximity</a>
+      	</div>
+      	<div>
+      		<li class="panel-title ">
+          		<a data-toggle="collapse" href="#collapse4">Quiz Level</a>
+        	</li>
+      	</div>
+     	<div id="collapse4" class="panel-collapse collapse">
+	          <a class="list-group-item">Easy</a>
+	          <a class="list-group-item">Medium</a>
+			  <a class="list-group-item">Hard</a>
+      	</div>     	
+	</div>
+	<span id = 'menu-bar'>&#9776;</span>
+		<div id = 'map' class ='fleft'></div>
+		<div id = 'formContent'></div>	
+	</div>
+
+    <script src='./js/map-leaflet.js'></script>
+
+</body>
+</html>

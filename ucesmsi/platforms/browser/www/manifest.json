@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "UCL Quiz App",
+  "short_name": "UCL Quiz App",
+  "version": "QuizApp",
+  "description": "The UCL question app is an app that operates within the UCL campus and triggers questions to users related to the history of the University. Additionally, the app is equipped with geolocation functionality that operates simultaneously with the quiz. An option that disables the geolocation is also provided with different level of difficulties for the quiz.",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}

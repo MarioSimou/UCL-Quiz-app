@@ -1,0 +1,157 @@
+body {
+    	margin : 0;
+    	padding: 0;
+    	font-family: "Lato", sans-serif;
+}
+body, html, #map {
+   		height : 100%;
+   		width: 100vw;
+   		transition: height 5s ease-in-out;
+}
+#map {
+	position: fixed;
+	display: inline;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.fleft {
+    float: left;
+}
+
+#mySidenav {
+	width: 30% !important;
+}
+
+#menu-bar {
+	display: inline;
+	font-size:30px;
+	cursor:pointer;
+	position: fixed;
+	top: 2.5%;
+	left: 92%;
+	margin: 0;
+	z-index: 1;
+	background-color: #7EA7B1;
+	padding: 0.1% 0.5%;
+	border-radius: 12.5%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #7EA7B1;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out ;
+    padding-top: 2%;}
+
+.sidenav a { padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #155d74;
+    display: block;
+    transition: width 0.5s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out;
+}
+
+.sidenav a:hover {
+    color: #fff;
+
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.active{
+	width: 22.50%;
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+#full-zoom {
+    background: url(../img/arrowCross.png) no-repeat 3px 3px #fff;
+    top: 142.5%;
+}
+
+.custom{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 33px;
+    border-radius: 4px;
+    color: #0078A8;
+    -webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 1000;
+    position:absolute;
+    
+    left:0;
+    list-style: none;
+    padding-left: 0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    margin-left:10px;
+    border: solid 2px #A5A4A4;
+
+}
+
+.custom:hover{
+    opacity: 0.6;
+}
+
+#clean-map {
+    background-color: black;
+    top:107.5%;    
+    background: url(../img/brush.png) no-repeat 0px 0px #fff;
+}
+
+form p {
+    font-weight: bold;
+}
+input[type=button],input[type=reset]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=button],input:[type=reset]:hover{
+	background-color: #45a049;
+}
+
+.displayNone {
+	display: none ! important;
+
+}
