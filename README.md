@@ -87,14 +87,9 @@ Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foo
 
 **Sources:**
 
-https://github.com/Leaflet/Leaflet.markercluster
-
-https://github.com/lvoogdt/Leaflet.awesome-markers
-
-https://getbootstrap.com/docs/3.3/getting-started/ 
-
-https://leafletjs.com/ 
-
-https://github.com/leaflet-extras/leaflet-providers
-
-https://github.com/stefanocudini/leaflet-search
+[Markercluster plugin](https://github.com/Leaflet/Leaflet.markercluster)
+[Awesome Markers Plugin](https://github.com/lvoogdt/Leaflet.awesome-markers)
+[Bootstrap](https://getbootstrap.com/docs/3.3/getting-started/)
+[Leaflet](https://leafletjs.com/)
+[Leaflet Providers](https://github.com/leaflet-extras/leaflet-providers)
+[Leaflet Search](https://github.com/stefanocudini/leaflet-search)
