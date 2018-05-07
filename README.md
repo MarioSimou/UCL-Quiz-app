@@ -93,11 +93,15 @@ The app is also equipped with more commands that operate over the UCL POI datase
 
 ![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)  
 >Search Command
+
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
 
+![7](https://user-images.githubusercontent.com/32243459/39714472-166610c4-5222-11e8-9ba2-1cc70becd522.png)
 > Clean Command
 
 Markers that may remain from a search process or the geolocation are cleaned from the map.
+
+![8](https://user-images.githubusercontent.com/32243459/39714506-36b6acee-5222-11e8-863d-d9efd0a300d8.png)
 
 > Full Zoom Command
 
@@ -105,12 +109,29 @@ The map zoom changes so that a full display of the data is given.
 
 **3. More Capabilities**
 
-When a user clicks on a POI, a pop up that contains information related to the clicked point is shown. The pop up contains information such as the department name, the question that is asked for that point, its correct answer, and its geographical coordinates [Fig 7 (A)].
-Hovering over the map and the POI dataset, information related to their content is shown at the bottom-left corner of the map [Fig. 7 (B)]. This information is similar with what is given in the pop up window.
+When a user clicks on a POI, a pop up that contains information related to the clicked point is shown. The pop up contains information such as the department name, the question that is asked for that point, its correct answer, and its geographical coordinates [Fig 6 (A)].
 
-In order to make the map display more visually attractive, the buildings of UCL are concentrated in small clusters (Fig. 8). Each building that may fell within the buffer zone of a cluster, is added on that cluster and removed from the display. As a zoom level of the map changes, and the display reaches to its maximum zoom level, the cluster dissolves.
+Hovering over the map and the POI dataset, information related to their content is shown at the bottom-left corner of the map [Fig. 6 (B)]. This information is similar with what is given in the pop up window.
 
-Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
+![7a](https://user-images.githubusercontent.com/32243459/39714629-9642614e-5222-11e8-94ec-cf9eca64cade.png)
+
+Fig. 6 (A)
+
+![7b](https://user-images.githubusercontent.com/32243459/39714666-b4f1fb54-5222-11e8-8a4f-911d60093a59.png)
+
+Fig. 6 (B)
+
+In order to make the map display more visually attractive, the buildings of UCL are concentrated in small clusters (Fig. 7). Each building that may fell within the buffer zone of a cluster, is added on that cluster and removed from the display. As a zoom level of the map changes, and the display reaches to its maximum zoom level, the cluster dissolves.
+
+![9](https://user-images.githubusercontent.com/32243459/39714689-c753bf62-5222-11e8-8d76-caf5dcdad0d7.png)
+
+Fig. 7
+
+Lastly, the map is equipped with a scale bar [(Fig. 8)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
+
+![10](https://user-images.githubusercontent.com/32243459/39714734-e3e25206-5222-11e8-8a8a-b15eaae3469f.png)
+
+Fig. 8
 
 ---------------------------------------------------------------------------------------------------------------------------
 
