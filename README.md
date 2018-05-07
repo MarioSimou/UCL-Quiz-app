@@ -65,10 +65,6 @@ On the other hand, the proximity quiz is equipped with distance-related options.
 The selected option is shown with different font weight.
 
 
-
-
-
-
 **2. Map-based Options**
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
