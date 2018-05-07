@@ -136,8 +136,8 @@ function loaddata(data)
 	 // change the map zoom so that all the data is show
 	 map.addLayer(layerGroup);
 	 map.fitBounds(layerGroup.getBounds()); // fit he display
-	 //map.setMaxBounds(layerGroup.getBounds()); // restricts the map display on the layerGroup's extent
-
+	 map.setMaxBounds(layerGroup.getBounds()); // restricts the map display on the layerGroup's extent
+	
 }
 
 window.addEventListener('DOMContentLoaded', function() 
