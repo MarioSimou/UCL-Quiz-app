@@ -34,6 +34,8 @@ The application can be downloaded using a QR app reader [link](https://play.goog
 Besides the main purpose of the mobile app to inform a user and prompts him/her on a quiz challenge, the app’s deployment was attained so that a user can interact with the facilities of the campus of UCL. A variety of commands and operations are supported, which are described in that section.
 The commands that are supported are categorised in two different categories, the menu-based and the map-based commands.
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 **1. Menu-based Options**
 A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 1). The menu bar options are described below:
 
@@ -88,7 +90,7 @@ Fig. 5
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
 
->![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)    Search Command  
+>Search Command![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)  
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
 
 > Clean Command
@@ -108,6 +110,7 @@ In order to make the map display more visually attractive, the buildings of UCL 
 
 Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
 
+---------------------------------------------------------------------------------------------------------------------------
 
 **Sources:**
 
