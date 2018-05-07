@@ -39,18 +39,31 @@ A menu bar is available that the user might use and changes some of the function
 
 ![1](https://user-images.githubusercontent.com/32243459/39713882-37f41e40-5220-11e8-8cf3-c9834a7ae403.png)
 
+Fig. 1
 
 *```Basemaps:```*
 
-The app supports the Street, Imagery, and Topo basemaps that are provided by Esri ArcGIS. Both, the user location and the buildings of UCL are formulated in a such way that changes on the map layers do not interrupt the normal operation of the datasets. The Street map layer is by default loaded when the mobile app launches. The layer that is activated, is shown with a different font weight (Fig. 3).
+The app supports the Street, Imagery, and Topo basemaps that are provided by Esri ArcGIS. Both, the user location and the buildings of UCL are formulated in a such way that changes on the map layers do not interrupt the normal operation of the datasets. The Street map layer is by default loaded when the mobile app launches. The layer that is activated, is shown with a different font weight (Fig. 2).
+
+![2](https://user-images.githubusercontent.com/32243459/39713944-7090f098-5220-11e8-96c2-0b91215a0260.png)
+
+Fig.2
 
 *```Layers:```*
 
-The buildings of UCL are activated or deactivated with that option (Fig. 4). This option can be extended to accommodate more datasets and functionalities. 
+The buildings of UCL are activated or deactivated with that option (Fig. 3). This option can be extended to accommodate more datasets and functionalities. 
+
+![3](https://user-images.githubusercontent.com/32243459/39713983-8e90c73a-5220-11e8-99be-a120407b6cd3.png)
+
+Fig. 3
 
 *```Quiz Time:```*
 
-The app supports two different types of quiz tests, the Time and Proximity Quiz (Fig. 5), which are based on different implementations. These options are responsible to start a quiz challenge or even to stop. The content of the label of each option determines whether the quiz is activated.  
+The app supports two different types of quiz tests, the Time and Proximity Quiz (Fig. 4), which are based on different implementations. These options are responsible to start a quiz challenge or even to stop. The content of the label of each option determines whether the quiz is activated.  
+
+![4](https://user-images.githubusercontent.com/32243459/39714023-aaca1bfe-5220-11e8-9138-6cbccd135b33.png)
+
+Fig. 4
 
 > *Time Quiz:*
 A question over a constant time interval is shown to the user that needs to answer. Therefore, for constant time intervals, the location of the user is compared with the location of all the buildings of UCL, and a question is constructed related to the closest building. When the difference between the latest asked question and the upcoming question exceeds the specified value of the interval, the question pops up on the user. The user is able to choose different time intervals picking a different option from the Quiz Level option. 
@@ -63,16 +76,19 @@ The location of the user and the buildings of UCL are compared. Based on a speci
 Both are location based options, meaning that the questions that are asked are constructed based on the closest building with respect to the user location. However, their implementation deviates with respect on when the question is asked. The time option performs questions based on a temporal criterion (specifying a temporal value that defines the difference between the latest asked and the upcoming question), while the proximity option pops up question according to a distance criterion (if the distance of the user is less than a specified threshold value). 
 
 *```Quiz Level:```*
-Three different options are available for the time and proximity options that each one depends on its implementation details. A label of High, Medium and Easy is given for each option that represents the level of difficulty of the quiz. The high, medium and easy option for the time quiz corresponds on a 60, 120 and 300 interval counted in seconds, respectively. For example, if a user picks the option of high difficulty, a question will pop up to him/her every one minute.
+Three different options are available for the time and proximity options that each one depends on its implementation details. A label of High, Medium and Easy is given for each option that represents the level of difficulty of the quiz (Fig. 5). The high, medium and easy option for the time quiz corresponds on a 60, 120 and 300 interval counted in seconds, respectively. For example, if a user picks the option of high difficulty, a question will pop up to him/her every one minute.
 On the other hand, the proximity quiz is equipped with distance-related options. In that case, a high, medium and easy difficulty option corresponds to a 50, 100 and 500 metres distance, respectively. In conjunction with the geolocation service that operates every thirty seconds, a question is shown to the user if his/her distance with respect to a UCL building is less than the specified threshold distance. For example, if the user chooses the option of high difficulty, then a question is only displayed on the user if his/her distance is less than 50 metres from the closest UCL building. The process is continuously executed every thirty seconds.
 The selected option is shown with different font weight.
 
+![5](https://user-images.githubusercontent.com/32243459/39714104-f29dafe0-5220-11e8-9fed-ac0ea0a51399.png)
+
+Fig. 5
 
 **2. Map-based Options**
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
 
-> Search Command
+> Search Command  ![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)
 
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
 
