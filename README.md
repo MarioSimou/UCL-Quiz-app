@@ -1,13 +1,18 @@
 # UCL-Quiz-app
 
 
-**What is UCL Quiz app?**
+**What is UCL Question System app?**
 
-The UCL Quiz app is a location-based smartphone/tablet app, which employs the user location and prompts him/her on a quiz test. The questions, which have a historical related content,  are based on the user’s proximity with respect to the buildings of UCL.
+The UCL Question System app is a browsed-based web application that works in conjunction with the UCL Quiz app. The main operation of the application is data collection and the population of the back-end database that is used by the UCL Quiz app. In particular, it enables to a user to record POIs in which information has been attached that is employed by the quiz app.
 
-**Which devices does the mobile app support?**
+**Which browsers do support the web app?**
+- The web application is compatible with the following browsers:
+- Google Chrome Version 66.0.3359.139 (64-bit)
+- Google Chrome Version 48.0.2564.109 (64-bit)
+- Mozilla Firefox Quantum Version 59.0.2 (64-bit)
+- Mozilla Firefox Quantum Version 45.2.0 (64-bit)
+- Internet Explorer 11 Version 11.0.9600.18920 (64-bit) 
 
-The UCL quiz app can be used on any Android device that supports an android model above 2.3 (API Level 10) (Gingerbread), and is implemented based on the Cordova Phonegap build1. As a rule of thumb, Android versions become unsupported by Cordova as they dip below 5% of the Android users. A better intuition about the model’s compatibility can be taken by the following Google’s android device dashboard: https://developer.android.com/about/dashboards/ 
 
 **How it works?**
 
