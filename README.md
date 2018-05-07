@@ -37,27 +37,29 @@ The commands that are supported are categorised in two different categories, the
 **1. Menu-based Options**
 A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 2). The menu bar options are described below:
 
-```Basemaps:```
+```*Basemaps:*```
 
 The app supports the Street, Imagery, and Topo basemaps that are provided by Esri ArcGIS. Both, the user location and the buildings of UCL are formulated in a such way that changes on the map layers do not interrupt the normal operation of the datasets. The Street map layer is by default loaded when the mobile app launches. The layer that is activated, is shown with a different font weight (Fig. 3).
 
-```Layers:```
+```*Layers:*```
 
 The buildings of UCL are activated or deactivated with that option (Fig. 4). This option can be extended to accommodate more datasets and functionalities. 
 
-```Quiz Time:```
+```*Quiz Time:*```
 
 The app supports two different types of quiz tests, the Time and Proximity Quiz (Fig. 5), which are based on different implementations. These options are responsible to start a quiz challenge or even to stop. The content of the label of each option determines whether the quiz is activated.  
 
-*Time Quiz:* A question over a constant time interval is shown to the user that needs to answer. Therefore, for constant time intervals, the location of the user is compared with the location of all the buildings of UCL, and a question is constructed related to the closest building. When the difference between the latest asked question and the upcoming question exceeds the specified value of the interval, the question pops up on the user. The user is able to choose different time intervals picking a different option from the Quiz Level option. 
+> *Time Quiz:*
+A question over a constant time interval is shown to the user that needs to answer. Therefore, for constant time intervals, the location of the user is compared with the location of all the buildings of UCL, and a question is constructed related to the closest building. When the difference between the latest asked question and the upcoming question exceeds the specified value of the interval, the question pops up on the user. The user is able to choose different time intervals picking a different option from the Quiz Level option. 
 
-*Proximity Quiz:* The location of the user and the buildings of UCL are compared. Based on a specified Quiz Level option, the building that has the closest distance, its distance is compared with a threshold value, and if that distance is less than the threshold value, a question pops up related to the closest building. The process is repeatedly executed every thirty seconds. The proximity quiz is the default option that is loaded when a user launches the app.
+> *Proximity Quiz:*
+The location of the user and the buildings of UCL are compared. Based on a specified Quiz Level option, the building that has the closest distance, its distance is compared with a threshold value, and if that distance is less than the threshold value, a question pops up related to the closest building. The process is repeatedly executed every thirty seconds. The proximity quiz is the default option that is loaded when a user launches the app.
 
-> Time vs Proximity Quiz
+```*Time vs Proximity Quiz*```
 
 Both are location based options, meaning that the questions that are asked are constructed based on the closest building with respect to the user location. However, their implementation deviates with respect on when the question is asked. The time option performs questions based on a temporal criterion (specifying a temporal value that defines the difference between the latest asked and the upcoming question), while the proximity option pops up question according to a distance criterion (if the distance of the user is less than a specified threshold value). 
 
-Quiz Level:
+```*Quiz Level:*```
 Three different options are available for the time and proximity options that each one depends on its implementation details. A label of High, Medium and Easy is given for each option that represents the level of difficulty of the quiz. The high, medium and easy option for the time quiz corresponds on a 60, 120 and 300 interval counted in seconds, respectively. For example, if a user picks the option of high difficulty, a question will pop up to him/her every one minute.
 On the other hand, the proximity quiz is equipped with distance-related options. In that case, a high, medium and easy difficulty option corresponds to a 50, 100 and 500 metres distance, respectively. In conjunction with the geolocation service that operates every thirty seconds, a question is shown to the user if his/her distance with respect to a UCL building is less than the specified threshold distance. For example, if the user chooses the option of high difficulty, then a question is only displayed on the user if his/her distance is less than 50 metres from the closest UCL building. The process is continuously executed every thirty seconds.
 The selected option is shown with different font weight.
@@ -67,15 +69,8 @@ The selected option is shown with different font weight.
 
 
 
+**2. Map-based Options**
 
-
-
-
-
-
-Fig. 6: The Quiz level determines different levels of difficulties for the time and proximity quiz option. 
-
-2.Map-based Options
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
 Search Command
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
@@ -83,54 +78,27 @@ Clean Command
 Markers that may remain from a search process or the geolocation are cleaned from the map.
 Full Zoom Command 
 The map zoom changes so that a full display of the data is given.
-3.3 More Capabilities
+
+**3. More Capabilities**
+
 When a user clicks on a POI, a pop up that contains information related to the clicked point is shown. The pop up contains information such as the department name, the question that is asked for that point, its correct answer, and its geographical coordinates [Fig 7 (A)].
 Hovering over the map and the POI dataset, information related to their content is shown at the bottom-left corner of the map [Fig. 7 (B)]. This information is similar with what is given in the pop up window.
 
-
-
-
-
-
-
-
-
-
-
-Fig. 7: (A) A pop up window that contains information related to the selected point is shown on the left image. (B) While a user hovers over the map and the buildings of UCL, related information is displayed on the bottom-left corner.
-
 In order to make the map display more visually attractive, the buildings of UCL are concentrated in small clusters (Fig. 8). Each building that may fell within the buffer zone of a cluster, is added on that cluster and removed from the display. As a zoom level of the map changes, and the display reaches to its maximum zoom level, the cluster dissolves.
 
+Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fig. 8: The buildings of UCL are grouped, such as small clusters have replaced the appearance of the markers. 
-
-Lastly, the map is equipped with a scale bar (Fig. 9), which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
-
-
-
-
-Fig. 9: The scale bar option that is provided by the UCL Question System App
 
 **Sources:**
 
 https://github.com/Leaflet/Leaflet.markercluster
-https://github.com/lvoogdt/Leaflet.awesome-markers
-https://getbootstrap.com/docs/3.3/getting-started/ 
-https://leafletjs.com/ 
-https://github.com/leaflet-extras/leaflet-providers
-https://github.com/stefanocudini/leaflet-search
 
+https://github.com/lvoogdt/Leaflet.awesome-markers
+
+https://getbootstrap.com/docs/3.3/getting-started/ 
+
+https://leafletjs.com/ 
+
+https://github.com/leaflet-extras/leaflet-providers
+
+https://github.com/stefanocudini/leaflet-search
