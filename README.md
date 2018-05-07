@@ -59,7 +59,7 @@ The location of the user and the buildings of UCL are compared. Based on a speci
 
 Both are location based options, meaning that the questions that are asked are constructed based on the closest building with respect to the user location. However, their implementation deviates with respect on when the question is asked. The time option performs questions based on a temporal criterion (specifying a temporal value that defines the difference between the latest asked and the upcoming question), while the proximity option pops up question according to a distance criterion (if the distance of the user is less than a specified threshold value). 
 
-```*Quiz Level:*```
+*```Quiz Level:```*
 Three different options are available for the time and proximity options that each one depends on its implementation details. A label of High, Medium and Easy is given for each option that represents the level of difficulty of the quiz. The high, medium and easy option for the time quiz corresponds on a 60, 120 and 300 interval counted in seconds, respectively. For example, if a user picks the option of high difficulty, a question will pop up to him/her every one minute.
 On the other hand, the proximity quiz is equipped with distance-related options. In that case, a high, medium and easy difficulty option corresponds to a 50, 100 and 500 metres distance, respectively. In conjunction with the geolocation service that operates every thirty seconds, a question is shown to the user if his/her distance with respect to a UCL building is less than the specified threshold distance. For example, if the user chooses the option of high difficulty, then a question is only displayed on the user if his/her distance is less than 50 metres from the closest UCL building. The process is continuously executed every thirty seconds.
 The selected option is shown with different font weight.
@@ -68,11 +68,14 @@ The selected option is shown with different font weight.
 **2. Map-based Options**
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
-Search Command
+
+*Search Command*
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
-Clean Command
+
+*Clean Command*
 Markers that may remain from a search process or the geolocation are cleaned from the map.
-Full Zoom Command 
+
+*Full Zoom Command* 
 The map zoom changes so that a full display of the data is given.
 
 **3. More Capabilities**
