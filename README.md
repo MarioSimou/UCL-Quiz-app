@@ -88,8 +88,7 @@ Fig. 5
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
 
-> Search Command  ![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)
-
+>![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)    Search Command  
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
 
 > Clean Command
