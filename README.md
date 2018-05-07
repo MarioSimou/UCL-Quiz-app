@@ -29,12 +29,13 @@ This needs to be done as the mobile app is an unknown source app for your mobile
 The application can be downloaded using a QR app reader [link](https://play.google.com/store/search?q=qr%20reader&hl=en_GB). Install one of the recommended QR apps, open it, and place the camera of your device over the QR code that is given for the UCL Quiz app. Then, download the app and install it. Similarly as step 1, the unknown sources option needs to be checked in order to permit the installation. After the installation, an app icon is created on your home screen.
 
 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 **Mobile App Features**
 
 Besides the main purpose of the mobile app to inform a user and prompts him/her on a quiz challenge, the app’s deployment was attained so that a user can interact with the facilities of the campus of UCL. A variety of commands and operations are supported, which are described in that section.
 The commands that are supported are categorised in two different categories, the menu-based and the map-based commands.
-
------------------------------------------------------------------------------------------------------------------------------
 
 **1. Menu-based Options**
 A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 1). The menu bar options are described below:
@@ -90,7 +91,8 @@ Fig. 5
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
 
->Search Command![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)  
+![6](https://user-images.githubusercontent.com/32243459/39714162-15bccc04-5221-11e8-8722-93e21c6906b2.png)  
+>Search Command
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
 
 > Clean Command
