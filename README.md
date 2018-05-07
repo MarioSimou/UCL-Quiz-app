@@ -69,13 +69,13 @@ The selected option is shown with different font weight.
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
 
-*Search Command*
+> Search Command
 A building might be searched based on its corresponded question using this command. A marker is used to represent the building that is found.
 
-*Clean Command*
+> Clean Command
 Markers that may remain from a search process or the geolocation are cleaned from the map.
 
-*Full Zoom Command* 
+> Full Zoom Command
 The map zoom changes so that a full display of the data is given.
 
 **3. More Capabilities**
