@@ -24,7 +24,7 @@ The normal execution of the app is succeeded using the location of the user, and
 **How to install UCL Quiz mobile app?**
 
 The app can be downloaded from this [link](https://build.phonegap.com/apps/3145369/builds) using two different ways:
-Download the APK (Android application Package) file and transfer it to you mobile device using a usb cable. Before you start the installation, you need to check the unknown sources2 options on your mobile, which can be found on the security settings tab (Fig. 1). 
+Download the APK (Android application Package) file and transfer it to you mobile device using a usb cable. Before you start the installation, you need to check the unknown sources2 options on your mobile, which can be found on the security settings tab. 
 This needs to be done as the mobile app is an unknown source app for your mobile device, and the user’s privileges are needed to accept the installation. Then, the UCL Quiz app can be normally installed on your device and an app icon is created on your home screen.
 The application can be downloaded using a QR app reader [link](https://play.google.com/store/search?q=qr%20reader&hl=en_GB). Install one of the recommended QR apps, open it, and place the camera of your device over the QR code that is given for the UCL Quiz app. Then, download the app and install it. Similarly as step 1, the unknown sources option needs to be checked in order to permit the installation. After the installation, an app icon is created on your home screen.
 
@@ -35,7 +35,10 @@ Besides the main purpose of the mobile app to inform a user and prompts him/her 
 The commands that are supported are categorised in two different categories, the menu-based and the map-based commands.
 
 **1. Menu-based Options**
-A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 2). The menu bar options are described below:
+A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 1). The menu bar options are described below:
+
+![1](https://user-images.githubusercontent.com/32243459/39713882-37f41e40-5220-11e8-8cf3-c9834a7ae403.png)
+
 
 *```Basemaps:```*
 
