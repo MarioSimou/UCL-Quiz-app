@@ -34,18 +34,18 @@ The application can be downloaded using a QR app reader (https://play.google.com
 Besides the main purpose of the mobile app to inform a user and prompts him/her on a quiz challenge, the app’s deployment was attained so that a user can interact with the facilities of the campus of UCL. A variety of commands and operations are supported, which are described in that section.
 The commands that are supported are categorised in two different categories, the menu-based and the map-based commands.
 
-**1.Menu-based Options**
+**1. Menu-based Options**
 A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 2). The menu bar options are described below:
 
-*Basemaps:*
+```Basemaps:```
 
 The app supports the Street, Imagery, and Topo basemaps that are provided by Esri ArcGIS. Both, the user location and the buildings of UCL are formulated in a such way that changes on the map layers do not interrupt the normal operation of the datasets. The Street map layer is by default loaded when the mobile app launches. The layer that is activated, is shown with a different font weight (Fig. 3).
 
-*Layers:*
+```Layers:```
 
 The buildings of UCL are activated or deactivated with that option (Fig. 4). This option can be extended to accommodate more datasets and functionalities. 
 
-*Quiz Time:*
+```Quiz Time:```
 
 The app supports two different types of quiz tests, the Time and Proximity Quiz (Fig. 5), which are based on different implementations. These options are responsible to start a quiz challenge or even to stop. The content of the label of each option determines whether the quiz is activated.  
 
