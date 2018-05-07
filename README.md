@@ -23,10 +23,10 @@ The normal execution of the app is succeeded using the location of the user, and
 
 **How to install UCL Quiz mobile app?**
 
-The app can be downloaded from this link (https://build.phonegap.com/apps/3145369/builds) using two different ways:
+The app can be downloaded from this [link](https://build.phonegap.com/apps/3145369/builds) using two different ways:
 Download the APK (Android application Package) file and transfer it to you mobile device using a usb cable. Before you start the installation, you need to check the unknown sources2 options on your mobile, which can be found on the security settings tab (Fig. 1). 
 This needs to be done as the mobile app is an unknown source app for your mobile device, and the user’s privileges are needed to accept the installation. Then, the UCL Quiz app can be normally installed on your device and an app icon is created on your home screen.
-The application can be downloaded using a QR app reader (https://play.google.com/store/search?q=qr%20reader&hl=en_GB). Install one of the recommended QR apps, open it, and place the camera of your device over the QR code that is given for the UCL Quiz app. Then, download the app and install it. Similarly as step 1, the unknown sources option needs to be checked in order to permit the installation. After the installation, an app icon is created on your home screen.
+The application can be downloaded using a QR app reader [link](https://play.google.com/store/search?q=qr%20reader&hl=en_GB). Install one of the recommended QR apps, open it, and place the camera of your device over the QR code that is given for the UCL Quiz app. Then, download the app and install it. Similarly as step 1, the unknown sources option needs to be checked in order to permit the installation. After the installation, an app icon is created on your home screen.
 
 
 #Mobile App Features
