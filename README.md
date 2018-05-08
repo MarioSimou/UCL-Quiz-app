@@ -86,7 +86,8 @@ The selected option is shown with different font weight.
 
 Fig. 5
 
-Help:
+**Help:**
+
 Pressing this command, a new site opens with the corresponded documentation of the app (Fig. 6).
 
 ![doc](https://user-images.githubusercontent.com/32243459/39732200-e2021138-5263-11e8-9397-bceceb6fa229.png)
@@ -131,13 +132,13 @@ In order to make the map display more visually attractive, the buildings of UCL 
 
 ![9](https://user-images.githubusercontent.com/32243459/39714689-c753bf62-5222-11e8-8d76-caf5dcdad0d7.png)
 
-Fig. 8: The buildings of UCL are grouped, such as small clusters have replaced the appearance of the markers. 
+Fig. 8: 
 
 Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
 
 ![10](https://user-images.githubusercontent.com/32243459/39714734-e3e25206-5222-11e8-8a8a-b15eaae3469f.png)
 
-Fig. 9 The scale bar option that is provided by the UCL Question System App
+Fig. 9 
 
 ---------------------------------------------------------------------------------------------------------------------------
 
