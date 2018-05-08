@@ -86,7 +86,7 @@ The selected option is shown with different font weight.
 
 Fig. 5
 
-**Help:**
+``Help```
 
 Pressing this command, a new site opens with the corresponded documentation of the app (Fig. 6).
 
