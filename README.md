@@ -39,7 +39,7 @@ The commands that are supported are categorised in two different categories, the
 **1. Menu-based Options**
 A menu bar is available that the user might use and changes some of the functionalities of the app (Fig. 1). The menu bar options are described below:
 
-![1](https://user-images.githubusercontent.com/32243459/39713882-37f41e40-5220-11e8-8cf3-c9834a7ae403.png)
+![1](https://user-images.githubusercontent.com/32243459/39732432-3485a39c-5265-11e8-8577-420d82c4204f.png)
 
 Fig. 1
 
