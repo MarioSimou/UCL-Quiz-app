@@ -86,6 +86,13 @@ The selected option is shown with different font weight.
 
 Fig. 5
 
+Help:
+Pressing this command, a new site opens with the corresponded documentation of the app (Fig. 6).
+
+![doc](https://user-images.githubusercontent.com/32243459/39732200-e2021138-5263-11e8-9397-bceceb6fa229.png)
+
+Fig. 6The documentation of the quiz app can be accessed through the Help option of the menu bar.
+
 **2. Map-based Options**
 
 The app is also equipped with more commands that operate over the UCL POI dataset. These commands are described below:
@@ -108,29 +115,29 @@ The map zoom changes so that a full display of the data is given.
 
 **3. More Capabilities**
 
-When a user clicks on a POI, a pop up that contains information related to the clicked point is shown. The pop up contains information such as the department name, the question that is asked for that point, its correct answer, and its geographical coordinates [Fig 6 (A)].
+When a user clicks on a POI, a pop up that contains information related to the clicked point is shown. The pop up contains information such as the department name, the question that is asked for that point, its correct answer, and its geographical coordinates [Fig 7 (A)].
 
-Hovering over the map and the POI dataset, information related to their content is shown at the bottom-left corner of the map [Fig. 6 (B)]. This information is similar with what is given in the pop up window.
+Hovering over the map and the POI dataset, information related to their content is shown at the bottom-left corner of the map [Fig. 7 (B)]. This information is similar with what is given in the pop up window.
 
 ![7a](https://user-images.githubusercontent.com/32243459/39714629-9642614e-5222-11e8-94ec-cf9eca64cade.png)
 
-Fig. 6 (A)
+Fig. 7 (A)
 
 ![7b](https://user-images.githubusercontent.com/32243459/39714666-b4f1fb54-5222-11e8-8a4f-911d60093a59.png)
 
-Fig. 6 (B)
+Fig. 7 (B)
 
-In order to make the map display more visually attractive, the buildings of UCL are concentrated in small clusters (Fig. 7). Each building that may fell within the buffer zone of a cluster, is added on that cluster and removed from the display. As a zoom level of the map changes, and the display reaches to its maximum zoom level, the cluster dissolves.
+In order to make the map display more visually attractive, the buildings of UCL are concentrated in small clusters (Fig. 8). Each building that may fell within the buffer zone of a cluster, is added on that cluster and removed from the display. As a zoom level of the map changes, and the display reaches to its maximum zoom level, the cluster dissolves.
 
 ![9](https://user-images.githubusercontent.com/32243459/39714689-c753bf62-5222-11e8-8d76-caf5dcdad0d7.png)
 
-Fig. 7
+Fig. 8: The buildings of UCL are grouped, such as small clusters have replaced the appearance of the markers. 
 
-Lastly, the map is equipped with a scale bar [(Fig. 8)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
+Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foot as the measurement unit. The scale bar is often important when a user wants to estimate a distance from his/her location.  
 
 ![10](https://user-images.githubusercontent.com/32243459/39714734-e3e25206-5222-11e8-8a8a-b15eaae3469f.png)
 
-Fig. 8
+Fig. 9 The scale bar option that is provided by the UCL Question System App
 
 ---------------------------------------------------------------------------------------------------------------------------
 
