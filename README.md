@@ -140,7 +140,7 @@ Lastly, the map is equipped with a scale bar [(Fig. 9)], which uses metre or foo
 
 Fig. 9 
 
-[Guide](https://drive.google.com/open?id=1B0sI76o5EP2fPcF8LzIYclYmNRE4qusv)
+[User Guide](https://drive.google.com/open?id=1B0sI76o5EP2fPcF8LzIYclYmNRE4qusv)
 
 ---------------------------------------------------------------------------------------------------------------------------
 
